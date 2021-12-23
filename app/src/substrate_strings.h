@@ -1,18 +1,18 @@
 /*******************************************************************************
-*  (c) 2021 Zondax GmbH
-*
-*  Licensed under the Apache License, Version 2.0 (the "License");
-*  you may not use this file except in compliance with the License.
-*  You may obtain a copy of the License at
-*
-*      http://www.apache.org/licenses/LICENSE-2.0
-*
-*  Unless required by applicable law or agreed to in writing, software
-*  distributed under the License is distributed on an "AS IS" BASIS,
-*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-*  See the License for the specific language governing permissions and
-*  limitations under the License.
-********************************************************************************/
+ *  (c) 2021 Zondax GmbH
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ ********************************************************************************/
 #pragma once
 
 #ifdef __cplusplus
@@ -360,6 +360,9 @@ static const char* STR_ME_REVOKE_SLOT = "Revoke slot";
 static const char* STR_ME_REVOKE_CHILD = "Revoke child";
 static const char* STR_ME_TOGGLE = "Toggle";
 static const char* STR_ME_ALLOCATE = "Allocate";
+static const char* STR_ME_TRANSFER_ALL = "Transfer all";
+static const char* STR_ME_FORCE_UNRESERVE = "Force unreserve";
+static const char* STR_ME_OVERWRITE_VESTING_SCHEDULES = "Overwrite vesting schedules";
 
 // Items names
 static const char* STR_IT__ratio = "Ratio";
@@ -547,6 +550,10 @@ static const char* STR_IT_supporting = "Supporting";
 static const char* STR_IT_certificate_id = "Certificate id";
 static const char* STR_IT_root = "Root";
 static const char* STR_IT_child = "Child";
+static const char* STR_IT_ratio = "Ratio";
+static const char* STR_IT_subkeys = "Subkeys";
+static const char* STR_IT_keep_alive = "Keep alive";
+static const char* STR_IT_new_schedules = "New schedules";
 
 #ifdef __cplusplus
 }
